@@ -11,6 +11,7 @@ interface B{
 
 public class Main implements A,B {
     
+    @Override
     public void show(){
         System.out.println("implement B & B");
     }
