@@ -8,7 +8,7 @@ interface A{
 }
 
 class Demo implements A{
-//    @Override
+//    @Override //static methods can't override. can't use override annotation 
     public static void show(){
         System.out.println("Error");
     }
